@@ -3,8 +3,6 @@ package co.com.yacalder.condormovies.data.rest;
 import co.com.yacalder.condormovies.data.entity.GuestUser;
 import co.com.yacalder.condormovies.data.entity.PopularMovie.Movie;
 import co.com.yacalder.condormovies.data.entity.PopularMovie.Result;
-import co.com.yacalder.condormovies.data.entity.response.GuestUserResponse;
-import co.com.yacalder.condormovies.data.entity.response.PopularMovieResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

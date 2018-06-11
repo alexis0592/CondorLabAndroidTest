@@ -13,12 +13,10 @@ import co.com.yacalder.condormovies.view.GuestUserView;
 public class SplashActivity extends AppCompatActivity implements GuestUserView{
 
     private GuestUserPresenter guestUserPresenter;
-    private Button guestUserButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_movie_list);
 
         guestUserPresenter = new GuestUserPresenter();
         guestUserPresenter.addView(this);
